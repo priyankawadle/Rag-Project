@@ -1,0 +1,25 @@
+{
+  "name": "rag-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "0.3.34",
+    "@langchain/core": "0.3.42",
+    "@langchain/openai": "0.4.4",
+    "cheerio": "1.0.0",
+    "dotenv": "16.4.7",
+    "langchain": "0.3.19",
+    "pdf-parse": "1.1.1"
+  },
+  "overrides": {
+    "@langchain/core": "0.3.42"
+  }
+}
